@@ -39,6 +39,12 @@ h1{
 nav{
     display: flex;
     justify-content: center;
+    transition: font-size 2s;
+    
+}
+
+nav:hover{
+    font-size: 40px;
     
 }
 
