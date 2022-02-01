@@ -1,0 +1,122 @@
+body{
+    background-image:  url(https://pbs.twimg.com/media/ErZ3YvFXMAAUuBJ?format=jpg&name=large);
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    color: black;
+    
+    /*flexbox*/
+
+    display: flex;
+    justify-content: center;
+    background-color: #c9c5c5e5;
+    margin: 10px;  
+    border: black;
+}
+
+/*grid*/ 
+.grid{
+    gap: 10px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+
+.contenedorimagen{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li{
+     background-color: #c9c5c5e5;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.dirigirInstagram{
+    font-size: 13px;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    left: 1260px;
+    padding: 2px;
+    background-color: #c9c5c5e5;
+}
+
+.carrito{
+    font-size: 13px;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    left: 1250px;
+    margin: 40px;
+    padding: 2px;
+    background-color: #c9c5c5e5;
+}
+
+.bolsaCompra{
+    width: 20px;
+    color: black;
+    position: fixed;
+    left: 1220px;
+    margin: 40px;
+    padding: 2px;
+    background-color: #c9c5c5e5;
+}
+
+.contacto{
+    font-size: 13px;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    padding: 2px;
+    background-color:#c9c5c5e5;
+ 
+}
+
+.contactoFoto{
+    width: 40px;
+    position: relative;
+    left: 670px;
+}
+
+
+div{
+    text-align: center;
+}
+
+.descuentos{
+    width: 40%;
+    margin-bottom: 300px;
+}
+
+
+footer{
+    grid-area: footer;
+    font-size: 13px;
+    padding: 30px;
+    text-align: center;
+
+}
+
